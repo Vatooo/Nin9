@@ -1,0 +1,27 @@
+.bg-nine{
+    background-image:url('images/nine-bg.png');
+    width:100%;
+    height:1050px;
+    background-size: cover;
+}
+
+.view-demo{
+    margin-top:450px;
+}
+
+@media only screen and (max-width: 500px) {
+    .bg-nine {
+        background-image:url('images/nine-bg.png');
+        background-size: 500px 500px;
+        background-repeat: no-repeat;
+    }
+
+    .nine-gold{
+        margin-top:-100px;
+    }
+
+    .desc {
+        margin-top:250px;
+    }
+  
+}

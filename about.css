@@ -1,0 +1,27 @@
+.c_background{
+    background-image: url("images/contact_bg.png");
+    height:700px;
+    background-size:100% 900px;
+    background-repeat:no-repeat;
+    width:100%;
+}
+
+
+
+.about_production{
+    margin-bottom:500px;
+}
+
+@media only screen and (max-width: 500px) {
+    .c_background {
+        background-image:url('images/contact_bg.png');
+        background-size: 500px 500px;
+        background-repeat: no-repeat;
+    }
+    .p_full{
+        
+    }
+
+    
+  
+}
