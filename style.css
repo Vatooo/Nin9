@@ -1,7 +1,8 @@
 .bg-nine{
     background-image:url('images/nine-bg.png');
-    width:100%;
+    width:77%;
     height:1050px;
+    margin: 0 auto;
     background-size: cover;
 }
 
@@ -12,7 +13,7 @@
 @media only screen and (max-width: 500px) {
     .bg-nine {
         background-image:url('images/nine-bg.png');
-        background-size: 500px 500px;
+        background-size: 377px 500px;
         background-repeat: no-repeat;
     }
 
